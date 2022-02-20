@@ -1,0 +1,1253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GPE Solver: constantsモジュール</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-fancy-scrollbars.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">GPE Solver
+   </div>
+   <div id="projectbrief">A Numerical Solver for the dynamics of the Bose-Einstein condensates with the threaded parallel computing support.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'検索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('namespaceconstants.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">関数/サブルーチン</a> &#124;
+<a href="#var-members">変数</a>  </div>
+  <div class="headertitle"><div class="title">constantsモジュール</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+関数/サブルーチン</h2></td></tr>
+<tr class="memitem:a47fef6b416d1ad3c15ad173fdd2ff793"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a47fef6b416d1ad3c15ad173fdd2ff793">load_config</a> (path)</td></tr>
+<tr class="memdesc:a47fef6b416d1ad3c15ad173fdd2ff793"><td class="mdescLeft">&#160;</td><td class="mdescRight">設定ファイルを読み込んで変数に代入する  <a href="namespaceconstants.html#a47fef6b416d1ad3c15ad173fdd2ff793">[詳解]</a><br /></td></tr>
+<tr class="separator:a47fef6b416d1ad3c15ad173fdd2ff793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8825cec120219f3b16c67b544b022c7"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#aa8825cec120219f3b16c67b544b022c7">record_config</a> (path)</td></tr>
+<tr class="memdesc:aa8825cec120219f3b16c67b544b022c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">設定ファイルをコピーして保存する  <a href="namespaceconstants.html#aa8825cec120219f3b16c67b544b022c7">[詳解]</a><br /></td></tr>
+<tr class="separator:aa8825cec120219f3b16c67b544b022c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fc349ccb1236c885010fcaada89bd01"><td class="memItemLeft" align="right" valign="top">logical function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a7fc349ccb1236c885010fcaada89bd01">tological</a> (value)</td></tr>
+<tr class="memdesc:a7fc349ccb1236c885010fcaada89bd01"><td class="mdescLeft">&#160;</td><td class="mdescRight">integerをlogicalに変換するための内部関数  <a href="namespaceconstants.html#a7fc349ccb1236c885010fcaada89bd01">[詳解]</a><br /></td></tr>
+<tr class="separator:a7fc349ccb1236c885010fcaada89bd01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+変数</h2></td></tr>
+<tr class="memitem:afe94f5e7da8ab7d935bbd48ab2a704cf"><td class="memItemLeft" align="right" valign="top">double precision, parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#afe94f5e7da8ab7d935bbd48ab2a704cf">pi</a> = acos(-1d0)</td></tr>
+<tr class="memdesc:afe94f5e7da8ab7d935bbd48ab2a704cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">円周率  <a href="namespaceconstants.html#afe94f5e7da8ab7d935bbd48ab2a704cf">[詳解]</a><br /></td></tr>
+<tr class="separator:afe94f5e7da8ab7d935bbd48ab2a704cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab50a2f36c39c5e7f9b5e0fe7c921adc9"><td class="memItemLeft" align="right" valign="top">complex(kind(0d0)), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#ab50a2f36c39c5e7f9b5e0fe7c921adc9">iu</a> = (0d0, 1d0)</td></tr>
+<tr class="memdesc:ab50a2f36c39c5e7f9b5e0fe7c921adc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">虚数単位  <a href="namespaceconstants.html#ab50a2f36c39c5e7f9b5e0fe7c921adc9">[詳解]</a><br /></td></tr>
+<tr class="separator:ab50a2f36c39c5e7f9b5e0fe7c921adc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0244f21af1bf64bc049ded07f99c76be"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a0244f21af1bf64bc049ded07f99c76be">nx</a></td></tr>
+<tr class="memdesc:a0244f21af1bf64bc049ded07f99c76be"><td class="mdescLeft">&#160;</td><td class="mdescRight">x軸方向の次元  <a href="namespaceconstants.html#a0244f21af1bf64bc049ded07f99c76be">[詳解]</a><br /></td></tr>
+<tr class="separator:a0244f21af1bf64bc049ded07f99c76be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fddcd03e946cfc233a73769414a0f77"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a3fddcd03e946cfc233a73769414a0f77">ny</a></td></tr>
+<tr class="memdesc:a3fddcd03e946cfc233a73769414a0f77"><td class="mdescLeft">&#160;</td><td class="mdescRight">y軸方向の次元  <a href="namespaceconstants.html#a3fddcd03e946cfc233a73769414a0f77">[詳解]</a><br /></td></tr>
+<tr class="separator:a3fddcd03e946cfc233a73769414a0f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a325c0b3c98eea0b7bd527b7fd14d82d3"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a325c0b3c98eea0b7bd527b7fd14d82d3">nz</a></td></tr>
+<tr class="memdesc:a325c0b3c98eea0b7bd527b7fd14d82d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">z軸方向の次元  <a href="namespaceconstants.html#a325c0b3c98eea0b7bd527b7fd14d82d3">[詳解]</a><br /></td></tr>
+<tr class="separator:a325c0b3c98eea0b7bd527b7fd14d82d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad39bef6b17b2d9af9aa3e0ea505c5316"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#ad39bef6b17b2d9af9aa3e0ea505c5316">nl</a></td></tr>
+<tr class="memdesc:ad39bef6b17b2d9af9aa3e0ea505c5316"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( NL^2=N_x^2+N_y^2+N_z^2 \)  <a href="namespaceconstants.html#ad39bef6b17b2d9af9aa3e0ea505c5316">[詳解]</a><br /></td></tr>
+<tr class="separator:ad39bef6b17b2d9af9aa3e0ea505c5316"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf278cee94fad5aabe1947af0cbb7885"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#acf278cee94fad5aabe1947af0cbb7885">particlen</a></td></tr>
+<tr class="memdesc:acf278cee94fad5aabe1947af0cbb7885"><td class="mdescLeft">&#160;</td><td class="mdescRight">粒子数  <a href="namespaceconstants.html#acf278cee94fad5aabe1947af0cbb7885">[詳解]</a><br /></td></tr>
+<tr class="separator:acf278cee94fad5aabe1947af0cbb7885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae44f8d3b264c9c79672a321349af42d0"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#ae44f8d3b264c9c79672a321349af42d0">dh</a></td></tr>
+<tr class="memdesc:ae44f8d3b264c9c79672a321349af42d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">空間の刻み幅  <a href="namespaceconstants.html#ae44f8d3b264c9c79672a321349af42d0">[詳解]</a><br /></td></tr>
+<tr class="separator:ae44f8d3b264c9c79672a321349af42d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d2cf58c4f080b158b0a299641539803"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a9d2cf58c4f080b158b0a299641539803">dt_imag</a></td></tr>
+<tr class="memdesc:a9d2cf58c4f080b158b0a299641539803"><td class="mdescLeft">&#160;</td><td class="mdescRight">虚時間の刻み幅  <a href="namespaceconstants.html#a9d2cf58c4f080b158b0a299641539803">[詳解]</a><br /></td></tr>
+<tr class="separator:a9d2cf58c4f080b158b0a299641539803"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fa4a316345e0bc63302d0d1ae2a3ce1"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a9fa4a316345e0bc63302d0d1ae2a3ce1">dt_real</a></td></tr>
+<tr class="memdesc:a9fa4a316345e0bc63302d0d1ae2a3ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間の刻み幅  <a href="namespaceconstants.html#a9fa4a316345e0bc63302d0d1ae2a3ce1">[詳解]</a><br /></td></tr>
+<tr class="separator:a9fa4a316345e0bc63302d0d1ae2a3ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76690836233547c6130fb892f2d335b9"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a76690836233547c6130fb892f2d335b9">alpha</a></td></tr>
+<tr class="memdesc:a76690836233547c6130fb892f2d335b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">虚時間発展において次の時刻で用いる密度に新しい密度を混ぜ合わせる割合  <a href="namespaceconstants.html#a76690836233547c6130fb892f2d335b9">[詳解]</a><br /></td></tr>
+<tr class="separator:a76690836233547c6130fb892f2d335b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedff34fa9bb9d59a50c0d081b7aff623"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#aedff34fa9bb9d59a50c0d081b7aff623">should_calc_real</a></td></tr>
+<tr class="memdesc:aedff34fa9bb9d59a50c0d081b7aff623"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間発展を計算するか否か  <a href="namespaceconstants.html#aedff34fa9bb9d59a50c0d081b7aff623">[詳解]</a><br /></td></tr>
+<tr class="separator:aedff34fa9bb9d59a50c0d081b7aff623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad447b57b44dbb407af2a822a0762b41a"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#ad447b57b44dbb407af2a822a0762b41a">is_pc_enabled</a></td></tr>
+<tr class="memdesc:ad447b57b44dbb407af2a822a0762b41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predictor-Corrector法を有効にするか否か  <a href="namespaceconstants.html#ad447b57b44dbb407af2a822a0762b41a">[詳解]</a><br /></td></tr>
+<tr class="separator:ad447b57b44dbb407af2a822a0762b41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a490bd8ce704bb67c677a223b31c44d26"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a490bd8ce704bb67c677a223b31c44d26">gamma</a></td></tr>
+<tr class="memdesc:a490bd8ce704bb67c677a223b31c44d26"><td class="mdescLeft">&#160;</td><td class="mdescRight">散逸効果の強さ  <a href="namespaceconstants.html#a490bd8ce704bb67c677a223b31c44d26">[詳解]</a><br /></td></tr>
+<tr class="separator:a490bd8ce704bb67c677a223b31c44d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9ae4650add231b83ae46b0e975ca700"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#ad9ae4650add231b83ae46b0e975ca700">iters_rtime</a></td></tr>
+<tr class="memdesc:ad9ae4650add231b83ae46b0e975ca700"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間発展で計算する時間ステップ数  <a href="namespaceconstants.html#ad9ae4650add231b83ae46b0e975ca700">[詳解]</a><br /></td></tr>
+<tr class="separator:ad9ae4650add231b83ae46b0e975ca700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adce26cb7204a3715aeeee7fb83192314"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#adce26cb7204a3715aeeee7fb83192314">iters_rtime_skip</a></td></tr>
+<tr class="memdesc:adce26cb7204a3715aeeee7fb83192314"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間発展で出力しない分の時間ステップ数のインターバル  <a href="namespaceconstants.html#adce26cb7204a3715aeeee7fb83192314">[詳解]</a><br /></td></tr>
+<tr class="separator:adce26cb7204a3715aeeee7fb83192314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb93595f4daa04d3a1d7b61be48721b"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#aecb93595f4daa04d3a1d7b61be48721b">omega_imag</a></td></tr>
+<tr class="memdesc:aecb93595f4daa04d3a1d7b61be48721b"><td class="mdescLeft">&#160;</td><td class="mdescRight">虚時間発展における系の回転角速度  <a href="namespaceconstants.html#aecb93595f4daa04d3a1d7b61be48721b">[詳解]</a><br /></td></tr>
+<tr class="separator:aecb93595f4daa04d3a1d7b61be48721b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95141ff7d438de1c6dcf4f1d0738ed3e"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a95141ff7d438de1c6dcf4f1d0738ed3e">omega_real_init</a></td></tr>
+<tr class="memdesc:a95141ff7d438de1c6dcf4f1d0738ed3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間発展における系の初期時刻の回転角速度  <a href="namespaceconstants.html#a95141ff7d438de1c6dcf4f1d0738ed3e">[詳解]</a><br /></td></tr>
+<tr class="separator:a95141ff7d438de1c6dcf4f1d0738ed3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d63e5c594bd34a9537a665f597ccd8"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a36d63e5c594bd34a9537a665f597ccd8">omega_noise</a></td></tr>
+<tr class="memdesc:a36d63e5c594bd34a9537a665f597ccd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間発展における系の回転角速度に混ぜるノイズの割合  <a href="namespaceconstants.html#a36d63e5c594bd34a9537a665f597ccd8">[詳解]</a><br /></td></tr>
+<tr class="separator:a36d63e5c594bd34a9537a665f597ccd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba21f71e2528c6155dfcab1cf3f8b33e"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#aba21f71e2528c6155dfcab1cf3f8b33e">r0</a></td></tr>
+<tr class="memdesc:aba21f71e2528c6155dfcab1cf3f8b33e"><td class="mdescLeft">&#160;</td><td class="mdescRight">閉じ込めトラップの半径  <a href="namespaceconstants.html#aba21f71e2528c6155dfcab1cf3f8b33e">[詳解]</a><br /></td></tr>
+<tr class="separator:aba21f71e2528c6155dfcab1cf3f8b33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a743d81d6f048dca324e06583be25ef4a"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a743d81d6f048dca324e06583be25ef4a">vtrap</a></td></tr>
+<tr class="memdesc:a743d81d6f048dca324e06583be25ef4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">閉じ込めトラップポテンシャルの高さ  <a href="namespaceconstants.html#a743d81d6f048dca324e06583be25ef4a">[詳解]</a><br /></td></tr>
+<tr class="separator:a743d81d6f048dca324e06583be25ef4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac832d02f5782a79fe526410ee7e704fd"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#ac832d02f5782a79fe526410ee7e704fd">trap_type</a></td></tr>
+<tr class="memdesc:ac832d02f5782a79fe526410ee7e704fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">閉じ込めトラップポテンシャルの種別  <a href="namespaceconstants.html#ac832d02f5782a79fe526410ee7e704fd">[詳解]</a><br /></td></tr>
+<tr class="separator:ac832d02f5782a79fe526410ee7e704fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ce534030d239ad2e6283f0df13da097"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a0ce534030d239ad2e6283f0df13da097">core_radius_ratio</a></td></tr>
+<tr class="memdesc:a0ce534030d239ad2e6283f0df13da097"><td class="mdescLeft">&#160;</td><td class="mdescRight">閉じ込めトラップポテンシャル内のコアの半径  <a href="namespaceconstants.html#a0ce534030d239ad2e6283f0df13da097">[詳解]</a><br /></td></tr>
+<tr class="separator:a0ce534030d239ad2e6283f0df13da097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d23c5680196bec8216f1db546ed95e4"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a8d23c5680196bec8216f1db546ed95e4">xmax</a></td></tr>
+<tr class="memdesc:a8d23c5680196bec8216f1db546ed95e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">x軸の最大座標値  <a href="namespaceconstants.html#a8d23c5680196bec8216f1db546ed95e4">[詳解]</a><br /></td></tr>
+<tr class="separator:a8d23c5680196bec8216f1db546ed95e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a530dd9887b82a73163bc6e01d54a0e55"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a530dd9887b82a73163bc6e01d54a0e55">ymax</a></td></tr>
+<tr class="memdesc:a530dd9887b82a73163bc6e01d54a0e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">y軸の最大座標値  <a href="namespaceconstants.html#a530dd9887b82a73163bc6e01d54a0e55">[詳解]</a><br /></td></tr>
+<tr class="separator:a530dd9887b82a73163bc6e01d54a0e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16356e2e2c2c1bec28dfaa668b6a000f"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a16356e2e2c2c1bec28dfaa668b6a000f">zmax</a></td></tr>
+<tr class="memdesc:a16356e2e2c2c1bec28dfaa668b6a000f"><td class="mdescLeft">&#160;</td><td class="mdescRight">z軸の最大座標値  <a href="namespaceconstants.html#a16356e2e2c2c1bec28dfaa668b6a000f">[詳解]</a><br /></td></tr>
+<tr class="separator:a16356e2e2c2c1bec28dfaa668b6a000f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c63b9853ba434e14f3a9dac8555af09"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a0c63b9853ba434e14f3a9dac8555af09">vortex_exists</a></td></tr>
+<tr class="memdesc:a0c63b9853ba434e14f3a9dac8555af09"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期時刻における量子渦の有無  <a href="namespaceconstants.html#a0c63b9853ba434e14f3a9dac8555af09">[詳解]</a><br /></td></tr>
+<tr class="separator:a0c63b9853ba434e14f3a9dac8555af09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d0dea786d64c78bd65eed01312a20f8"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a0d0dea786d64c78bd65eed01312a20f8">x0_vortex</a></td></tr>
+<tr class="memdesc:a0d0dea786d64c78bd65eed01312a20f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期時刻における量子渦の中心座標(x座標)  <a href="namespaceconstants.html#a0d0dea786d64c78bd65eed01312a20f8">[詳解]</a><br /></td></tr>
+<tr class="separator:a0d0dea786d64c78bd65eed01312a20f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d5d78fe49fd90de60390a77ef86a8eb"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a8d5d78fe49fd90de60390a77ef86a8eb">y0_vortex</a></td></tr>
+<tr class="memdesc:a8d5d78fe49fd90de60390a77ef86a8eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期時刻における量子渦の中心座標(y座標)  <a href="namespaceconstants.html#a8d5d78fe49fd90de60390a77ef86a8eb">[詳解]</a><br /></td></tr>
+<tr class="separator:a8d5d78fe49fd90de60390a77ef86a8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade0ae8dbbeda19950ee9a16c1456f20e"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#ade0ae8dbbeda19950ee9a16c1456f20e">vortex_kappa</a></td></tr>
+<tr class="memdesc:ade0ae8dbbeda19950ee9a16c1456f20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期時刻における量子渦の巻数  <a href="namespaceconstants.html#ade0ae8dbbeda19950ee9a16c1456f20e">[詳解]</a><br /></td></tr>
+<tr class="separator:ade0ae8dbbeda19950ee9a16c1456f20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a946095825a77229579e27769f31afcc3"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a946095825a77229579e27769f31afcc3">vortex_dyn_iter</a></td></tr>
+<tr class="memdesc:a946095825a77229579e27769f31afcc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間において量子渦を動的に挿入するときのイテレーション  <a href="namespaceconstants.html#a946095825a77229579e27769f31afcc3">[詳解]</a><br /></td></tr>
+<tr class="separator:a946095825a77229579e27769f31afcc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a099129dc1cda8b813425ecd36a73a618"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a099129dc1cda8b813425ecd36a73a618">x0_vortex_dyn</a></td></tr>
+<tr class="memdesc:a099129dc1cda8b813425ecd36a73a618"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間において動的に挿入する量子渦の中心座標(x座標)  <a href="namespaceconstants.html#a099129dc1cda8b813425ecd36a73a618">[詳解]</a><br /></td></tr>
+<tr class="separator:a099129dc1cda8b813425ecd36a73a618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b7a7acdc1608ba16d091d71739f42c0"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a2b7a7acdc1608ba16d091d71739f42c0">y0_vortex_dyn</a></td></tr>
+<tr class="memdesc:a2b7a7acdc1608ba16d091d71739f42c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間において動的に挿入する量子渦の中心座標(y座標)  <a href="namespaceconstants.html#a2b7a7acdc1608ba16d091d71739f42c0">[詳解]</a><br /></td></tr>
+<tr class="separator:a2b7a7acdc1608ba16d091d71739f42c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e2496fbb19bde8c672f779d0f93d9e3"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a3e2496fbb19bde8c672f779d0f93d9e3">vortex_dyn_kappa</a></td></tr>
+<tr class="memdesc:a3e2496fbb19bde8c672f779d0f93d9e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間において動的に挿入する量子渦の巻数  <a href="namespaceconstants.html#a3e2496fbb19bde8c672f779d0f93d9e3">[詳解]</a><br /></td></tr>
+<tr class="separator:a3e2496fbb19bde8c672f779d0f93d9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf6ab896ed56867ce8151a5058c2435"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a3cf6ab896ed56867ce8151a5058c2435">sound_dyn_iter</a></td></tr>
+<tr class="memdesc:a3cf6ab896ed56867ce8151a5058c2435"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間において音波を動的に挿入するときのイテレーション  <a href="namespaceconstants.html#a3cf6ab896ed56867ce8151a5058c2435">[詳解]</a><br /></td></tr>
+<tr class="separator:a3cf6ab896ed56867ce8151a5058c2435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9ee8b45ba5e33f19096ab8435d2a12b"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#ad9ee8b45ba5e33f19096ab8435d2a12b">x0_sound_dyn</a></td></tr>
+<tr class="memdesc:ad9ee8b45ba5e33f19096ab8435d2a12b"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間において動的に挿入する音波の中心座標(x座標)  <a href="namespaceconstants.html#ad9ee8b45ba5e33f19096ab8435d2a12b">[詳解]</a><br /></td></tr>
+<tr class="separator:ad9ee8b45ba5e33f19096ab8435d2a12b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f3ed9eced54d4d89cdba8cff45e3bd5"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a0f3ed9eced54d4d89cdba8cff45e3bd5">y0_sound_dyn</a></td></tr>
+<tr class="memdesc:a0f3ed9eced54d4d89cdba8cff45e3bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間において動的に挿入する音波の中心座標(y座標)  <a href="namespaceconstants.html#a0f3ed9eced54d4d89cdba8cff45e3bd5">[詳解]</a><br /></td></tr>
+<tr class="separator:a0f3ed9eced54d4d89cdba8cff45e3bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafcff9ce85fd8be77bcfdf942df07e39"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#aafcff9ce85fd8be77bcfdf942df07e39">z0_sound_dyn</a></td></tr>
+<tr class="memdesc:aafcff9ce85fd8be77bcfdf942df07e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間において動的に挿入する音波の中心座標(z座標)  <a href="namespaceconstants.html#aafcff9ce85fd8be77bcfdf942df07e39">[詳解]</a><br /></td></tr>
+<tr class="separator:aafcff9ce85fd8be77bcfdf942df07e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfcc2e83e2f531bfdbf8d155e2ab188"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#aebfcc2e83e2f531bfdbf8d155e2ab188">vsound</a></td></tr>
+<tr class="memdesc:aebfcc2e83e2f531bfdbf8d155e2ab188"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間において動的に挿入する音波を生成する格子点ポテンシャルの高さ  <a href="namespaceconstants.html#aebfcc2e83e2f531bfdbf8d155e2ab188">[詳解]</a><br /></td></tr>
+<tr class="separator:aebfcc2e83e2f531bfdbf8d155e2ab188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6c1aded968176c98eab60ad7d9c0164"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#aa6c1aded968176c98eab60ad7d9c0164">delta_sound</a></td></tr>
+<tr class="memdesc:aa6c1aded968176c98eab60ad7d9c0164"><td class="mdescLeft">&#160;</td><td class="mdescRight">実時間において動的に挿入する音波を生成する格子点ポテンシャルのサイズ  <a href="namespaceconstants.html#aa6c1aded968176c98eab60ad7d9c0164">[詳解]</a><br /></td></tr>
+<tr class="separator:aa6c1aded968176c98eab60ad7d9c0164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63004124816edbfba9d9453b894d0672"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a63004124816edbfba9d9453b894d0672">pin_exists</a></td></tr>
+<tr class="memdesc:a63004124816edbfba9d9453b894d0672"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点を設定するか否か  <a href="namespaceconstants.html#a63004124816edbfba9d9453b894d0672">[詳解]</a><br /></td></tr>
+<tr class="separator:a63004124816edbfba9d9453b894d0672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc339d35da0b90b509ec6d436dce015e"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#adc339d35da0b90b509ec6d436dce015e">x0_pin</a></td></tr>
+<tr class="memdesc:adc339d35da0b90b509ec6d436dce015e"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点の中心座標(x座標)  <a href="namespaceconstants.html#adc339d35da0b90b509ec6d436dce015e">[詳解]</a><br /></td></tr>
+<tr class="separator:adc339d35da0b90b509ec6d436dce015e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa48dfeb9d97b177f0110dcee861485b7"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#aa48dfeb9d97b177f0110dcee861485b7">y0_pin</a></td></tr>
+<tr class="memdesc:aa48dfeb9d97b177f0110dcee861485b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点の中心座標(y座標)  <a href="namespaceconstants.html#aa48dfeb9d97b177f0110dcee861485b7">[詳解]</a><br /></td></tr>
+<tr class="separator:aa48dfeb9d97b177f0110dcee861485b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad3e25679e52387c6b0be7c86a88533"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a5ad3e25679e52387c6b0be7c86a88533">z0_pin</a></td></tr>
+<tr class="memdesc:a5ad3e25679e52387c6b0be7c86a88533"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点の中心座標(z座標)  <a href="namespaceconstants.html#a5ad3e25679e52387c6b0be7c86a88533">[詳解]</a><br /></td></tr>
+<tr class="separator:a5ad3e25679e52387c6b0be7c86a88533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c95902603f9cf208965baabfcf5d41f"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a4c95902603f9cf208965baabfcf5d41f">vpin</a></td></tr>
+<tr class="memdesc:a4c95902603f9cf208965baabfcf5d41f"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点のポテンシャルの高さ  <a href="namespaceconstants.html#a4c95902603f9cf208965baabfcf5d41f">[詳解]</a><br /></td></tr>
+<tr class="separator:a4c95902603f9cf208965baabfcf5d41f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b76967fea448040e1ffe97ba4563f4e"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a0b76967fea448040e1ffe97ba4563f4e">delta_pin</a></td></tr>
+<tr class="memdesc:a0b76967fea448040e1ffe97ba4563f4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点のポテンシャルのサイズ  <a href="namespaceconstants.html#a0b76967fea448040e1ffe97ba4563f4e">[詳解]</a><br /></td></tr>
+<tr class="separator:a0b76967fea448040e1ffe97ba4563f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afacf08de9b2add2a75d5354bccc72e40"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#afacf08de9b2add2a75d5354bccc72e40">grid_type</a></td></tr>
+<tr class="memdesc:afacf08de9b2add2a75d5354bccc72e40"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点グリッドの種別  <a href="namespaceconstants.html#afacf08de9b2add2a75d5354bccc72e40">[詳解]</a><br /></td></tr>
+<tr class="separator:afacf08de9b2add2a75d5354bccc72e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2a58ab538cebe75dbc33024b3903eb"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#aba2a58ab538cebe75dbc33024b3903eb">ngrid</a></td></tr>
+<tr class="memdesc:aba2a58ab538cebe75dbc33024b3903eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点グリッドの一辺の数  <a href="namespaceconstants.html#aba2a58ab538cebe75dbc33024b3903eb">[詳解]</a><br /></td></tr>
+<tr class="separator:aba2a58ab538cebe75dbc33024b3903eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ceadc532c06e90f652ce711749b8001"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a2ceadc532c06e90f652ce711749b8001">vgrid</a></td></tr>
+<tr class="memdesc:a2ceadc532c06e90f652ce711749b8001"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点グリッドのポテンシャル高さ  <a href="namespaceconstants.html#a2ceadc532c06e90f652ce711749b8001">[詳解]</a><br /></td></tr>
+<tr class="separator:a2ceadc532c06e90f652ce711749b8001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02a081d871f4fd2a89df84e4d18b9283"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a02a081d871f4fd2a89df84e4d18b9283">delta_grid</a></td></tr>
+<tr class="memdesc:a02a081d871f4fd2a89df84e4d18b9283"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点グリッドのポテンシャルサイズ  <a href="namespaceconstants.html#a02a081d871f4fd2a89df84e4d18b9283">[詳解]</a><br /></td></tr>
+<tr class="separator:a02a081d871f4fd2a89df84e4d18b9283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43de97510418441337ba7d12ff9413f9"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a43de97510418441337ba7d12ff9413f9">d_grid</a></td></tr>
+<tr class="memdesc:a43de97510418441337ba7d12ff9413f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">格子点グリッドの格子点間隔  <a href="namespaceconstants.html#a43de97510418441337ba7d12ff9413f9">[詳解]</a><br /></td></tr>
+<tr class="separator:a43de97510418441337ba7d12ff9413f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d956b070739b492c0e1ce113e5191c"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#a95d956b070739b492c0e1ce113e5191c">feedback_iter</a></td></tr>
+<tr class="memdesc:a95d956b070739b492c0e1ce113e5191c"><td class="mdescLeft">&#160;</td><td class="mdescRight">フィードバック効果を有効にするイテレーション  <a href="namespaceconstants.html#a95d956b070739b492c0e1ce113e5191c">[詳解]</a><br /></td></tr>
+<tr class="separator:a95d956b070739b492c0e1ce113e5191c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa92599865eb0b0544f80c6239bc56f99"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#aa92599865eb0b0544f80c6239bc56f99">nc</a></td></tr>
+<tr class="memdesc:aa92599865eb0b0544f80c6239bc56f99"><td class="mdescLeft">&#160;</td><td class="mdescRight">外部トルク  <a href="namespaceconstants.html#aa92599865eb0b0544f80c6239bc56f99">[詳解]</a><br /></td></tr>
+<tr class="separator:aa92599865eb0b0544f80c6239bc56f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb349fc539c62a9216b24094ebe3a013"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#adb349fc539c62a9216b24094ebe3a013">ic</a></td></tr>
+<tr class="memdesc:adb349fc539c62a9216b24094ebe3a013"><td class="mdescLeft">&#160;</td><td class="mdescRight">クラストの慣性モーメント  <a href="namespaceconstants.html#adb349fc539c62a9216b24094ebe3a013">[詳解]</a><br /></td></tr>
+<tr class="separator:adb349fc539c62a9216b24094ebe3a013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af92a53a6a2885953fc31dfab99df5c4b"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceconstants.html#af92a53a6a2885953fc31dfab99df5c4b">torque_iter</a></td></tr>
+<tr class="memdesc:af92a53a6a2885953fc31dfab99df5c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">外部トルクを有効にするイテレーション  <a href="namespaceconstants.html#af92a53a6a2885953fc31dfab99df5c4b">[詳解]</a><br /></td></tr>
+<tr class="separator:af92a53a6a2885953fc31dfab99df5c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">関数/サブルーチン詳解</h2>
+<a id="a47fef6b416d1ad3c15ad173fdd2ff793" name="a47fef6b416d1ad3c15ad173fdd2ff793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47fef6b416d1ad3c15ad173fdd2ff793">&#9670;&nbsp;</a></span>load_config()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine constants::load_config </td>
+          <td>(</td>
+          <td class="paramtype">character(*), optional&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>設定ファイルを読み込んで変数に代入する </p>
+<p >"config.txt"から設定を読み込んで変数を設定する </p><dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>設定ファイルまでの相対パス </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa8825cec120219f3b16c67b544b022c7" name="aa8825cec120219f3b16c67b544b022c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8825cec120219f3b16c67b544b022c7">&#9670;&nbsp;</a></span>record_config()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine constants::record_config </td>
+          <td>(</td>
+          <td class="paramtype">character(*), intent(in)&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>設定ファイルをコピーして保存する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">path</td><td>保存先の相対パス </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7fc349ccb1236c885010fcaada89bd01" name="a7fc349ccb1236c885010fcaada89bd01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc349ccb1236c885010fcaada89bd01">&#9670;&nbsp;</a></span>tological()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical function constants::tological </td>
+          <td>(</td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>integerをlogicalに変換するための内部関数 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">value</td><td>整数値(1/0) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>論理値 </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">変数詳解</h2>
+<a id="a76690836233547c6130fb892f2d335b9" name="a76690836233547c6130fb892f2d335b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76690836233547c6130fb892f2d335b9">&#9670;&nbsp;</a></span>alpha</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::alpha</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>虚時間発展において次の時刻で用いる密度に新しい密度を混ぜ合わせる割合 </p>
+
+</div>
+</div>
+<a id="a0ce534030d239ad2e6283f0df13da097" name="a0ce534030d239ad2e6283f0df13da097"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ce534030d239ad2e6283f0df13da097">&#9670;&nbsp;</a></span>core_radius_ratio</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::core_radius_ratio</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>閉じ込めトラップポテンシャル内のコアの半径 </p>
+
+</div>
+</div>
+<a id="a43de97510418441337ba7d12ff9413f9" name="a43de97510418441337ba7d12ff9413f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43de97510418441337ba7d12ff9413f9">&#9670;&nbsp;</a></span>d_grid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::d_grid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点グリッドの格子点間隔 </p>
+
+</div>
+</div>
+<a id="a02a081d871f4fd2a89df84e4d18b9283" name="a02a081d871f4fd2a89df84e4d18b9283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02a081d871f4fd2a89df84e4d18b9283">&#9670;&nbsp;</a></span>delta_grid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::delta_grid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点グリッドのポテンシャルサイズ </p>
+
+</div>
+</div>
+<a id="a0b76967fea448040e1ffe97ba4563f4e" name="a0b76967fea448040e1ffe97ba4563f4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b76967fea448040e1ffe97ba4563f4e">&#9670;&nbsp;</a></span>delta_pin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::delta_pin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点のポテンシャルのサイズ </p>
+
+</div>
+</div>
+<a id="aa6c1aded968176c98eab60ad7d9c0164" name="aa6c1aded968176c98eab60ad7d9c0164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6c1aded968176c98eab60ad7d9c0164">&#9670;&nbsp;</a></span>delta_sound</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::delta_sound</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間において動的に挿入する音波を生成する格子点ポテンシャルのサイズ </p>
+
+</div>
+</div>
+<a id="ae44f8d3b264c9c79672a321349af42d0" name="ae44f8d3b264c9c79672a321349af42d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae44f8d3b264c9c79672a321349af42d0">&#9670;&nbsp;</a></span>dh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::dh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>空間の刻み幅 </p>
+
+</div>
+</div>
+<a id="a9d2cf58c4f080b158b0a299641539803" name="a9d2cf58c4f080b158b0a299641539803"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d2cf58c4f080b158b0a299641539803">&#9670;&nbsp;</a></span>dt_imag</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::dt_imag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>虚時間の刻み幅 </p>
+
+</div>
+</div>
+<a id="a9fa4a316345e0bc63302d0d1ae2a3ce1" name="a9fa4a316345e0bc63302d0d1ae2a3ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fa4a316345e0bc63302d0d1ae2a3ce1">&#9670;&nbsp;</a></span>dt_real</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::dt_real</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間の刻み幅 </p>
+
+</div>
+</div>
+<a id="a95d956b070739b492c0e1ce113e5191c" name="a95d956b070739b492c0e1ce113e5191c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95d956b070739b492c0e1ce113e5191c">&#9670;&nbsp;</a></span>feedback_iter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::feedback_iter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>フィードバック効果を有効にするイテレーション </p>
+
+</div>
+</div>
+<a id="a490bd8ce704bb67c677a223b31c44d26" name="a490bd8ce704bb67c677a223b31c44d26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a490bd8ce704bb67c677a223b31c44d26">&#9670;&nbsp;</a></span>gamma</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::gamma</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>散逸効果の強さ </p>
+
+</div>
+</div>
+<a id="afacf08de9b2add2a75d5354bccc72e40" name="afacf08de9b2add2a75d5354bccc72e40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afacf08de9b2add2a75d5354bccc72e40">&#9670;&nbsp;</a></span>grid_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::grid_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点グリッドの種別 </p>
+
+</div>
+</div>
+<a id="adb349fc539c62a9216b24094ebe3a013" name="adb349fc539c62a9216b24094ebe3a013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb349fc539c62a9216b24094ebe3a013">&#9670;&nbsp;</a></span>ic</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::ic</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>クラストの慣性モーメント </p>
+
+</div>
+</div>
+<a id="ad447b57b44dbb407af2a822a0762b41a" name="ad447b57b44dbb407af2a822a0762b41a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad447b57b44dbb407af2a822a0762b41a">&#9670;&nbsp;</a></span>is_pc_enabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical constants::is_pc_enabled</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Predictor-Corrector法を有効にするか否か </p>
+
+</div>
+</div>
+<a id="ad9ae4650add231b83ae46b0e975ca700" name="ad9ae4650add231b83ae46b0e975ca700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9ae4650add231b83ae46b0e975ca700">&#9670;&nbsp;</a></span>iters_rtime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::iters_rtime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間発展で計算する時間ステップ数 </p>
+
+</div>
+</div>
+<a id="adce26cb7204a3715aeeee7fb83192314" name="adce26cb7204a3715aeeee7fb83192314"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adce26cb7204a3715aeeee7fb83192314">&#9670;&nbsp;</a></span>iters_rtime_skip</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::iters_rtime_skip</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間発展で出力しない分の時間ステップ数のインターバル </p>
+
+</div>
+</div>
+<a id="ab50a2f36c39c5e7f9b5e0fe7c921adc9" name="ab50a2f36c39c5e7f9b5e0fe7c921adc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab50a2f36c39c5e7f9b5e0fe7c921adc9">&#9670;&nbsp;</a></span>iu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">complex(kind(0d0)), parameter constants::iu = (0d0, 1d0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>虚数単位 </p>
+
+</div>
+</div>
+<a id="aa92599865eb0b0544f80c6239bc56f99" name="aa92599865eb0b0544f80c6239bc56f99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa92599865eb0b0544f80c6239bc56f99">&#9670;&nbsp;</a></span>nc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::nc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>外部トルク </p>
+
+</div>
+</div>
+<a id="aba2a58ab538cebe75dbc33024b3903eb" name="aba2a58ab538cebe75dbc33024b3903eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba2a58ab538cebe75dbc33024b3903eb">&#9670;&nbsp;</a></span>ngrid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::ngrid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点グリッドの一辺の数 </p>
+
+</div>
+</div>
+<a id="ad39bef6b17b2d9af9aa3e0ea505c5316" name="ad39bef6b17b2d9af9aa3e0ea505c5316"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad39bef6b17b2d9af9aa3e0ea505c5316">&#9670;&nbsp;</a></span>nl</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::nl</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( NL^2=N_x^2+N_y^2+N_z^2 \) </p>
+
+</div>
+</div>
+<a id="a0244f21af1bf64bc049ded07f99c76be" name="a0244f21af1bf64bc049ded07f99c76be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0244f21af1bf64bc049ded07f99c76be">&#9670;&nbsp;</a></span>nx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::nx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>x軸方向の次元 </p>
+
+</div>
+</div>
+<a id="a3fddcd03e946cfc233a73769414a0f77" name="a3fddcd03e946cfc233a73769414a0f77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fddcd03e946cfc233a73769414a0f77">&#9670;&nbsp;</a></span>ny</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::ny</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>y軸方向の次元 </p>
+
+</div>
+</div>
+<a id="a325c0b3c98eea0b7bd527b7fd14d82d3" name="a325c0b3c98eea0b7bd527b7fd14d82d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a325c0b3c98eea0b7bd527b7fd14d82d3">&#9670;&nbsp;</a></span>nz</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::nz</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>z軸方向の次元 </p>
+
+</div>
+</div>
+<a id="aecb93595f4daa04d3a1d7b61be48721b" name="aecb93595f4daa04d3a1d7b61be48721b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecb93595f4daa04d3a1d7b61be48721b">&#9670;&nbsp;</a></span>omega_imag</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::omega_imag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>虚時間発展における系の回転角速度 </p>
+
+</div>
+</div>
+<a id="a36d63e5c594bd34a9537a665f597ccd8" name="a36d63e5c594bd34a9537a665f597ccd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d63e5c594bd34a9537a665f597ccd8">&#9670;&nbsp;</a></span>omega_noise</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::omega_noise</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間発展における系の回転角速度に混ぜるノイズの割合 </p>
+
+</div>
+</div>
+<a id="a95141ff7d438de1c6dcf4f1d0738ed3e" name="a95141ff7d438de1c6dcf4f1d0738ed3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95141ff7d438de1c6dcf4f1d0738ed3e">&#9670;&nbsp;</a></span>omega_real_init</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::omega_real_init</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間発展における系の初期時刻の回転角速度 </p>
+
+</div>
+</div>
+<a id="acf278cee94fad5aabe1947af0cbb7885" name="acf278cee94fad5aabe1947af0cbb7885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf278cee94fad5aabe1947af0cbb7885">&#9670;&nbsp;</a></span>particlen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::particlen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>粒子数 </p>
+
+</div>
+</div>
+<a id="afe94f5e7da8ab7d935bbd48ab2a704cf" name="afe94f5e7da8ab7d935bbd48ab2a704cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe94f5e7da8ab7d935bbd48ab2a704cf">&#9670;&nbsp;</a></span>pi</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision, parameter constants::pi = acos(-1d0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>円周率 </p>
+
+</div>
+</div>
+<a id="a63004124816edbfba9d9453b894d0672" name="a63004124816edbfba9d9453b894d0672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63004124816edbfba9d9453b894d0672">&#9670;&nbsp;</a></span>pin_exists</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical constants::pin_exists</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点を設定するか否か </p>
+
+</div>
+</div>
+<a id="aba21f71e2528c6155dfcab1cf3f8b33e" name="aba21f71e2528c6155dfcab1cf3f8b33e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba21f71e2528c6155dfcab1cf3f8b33e">&#9670;&nbsp;</a></span>r0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::r0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>閉じ込めトラップの半径 </p>
+
+</div>
+</div>
+<a id="aedff34fa9bb9d59a50c0d081b7aff623" name="aedff34fa9bb9d59a50c0d081b7aff623"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedff34fa9bb9d59a50c0d081b7aff623">&#9670;&nbsp;</a></span>should_calc_real</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical constants::should_calc_real</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間発展を計算するか否か </p>
+
+</div>
+</div>
+<a id="a3cf6ab896ed56867ce8151a5058c2435" name="a3cf6ab896ed56867ce8151a5058c2435"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cf6ab896ed56867ce8151a5058c2435">&#9670;&nbsp;</a></span>sound_dyn_iter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::sound_dyn_iter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間において音波を動的に挿入するときのイテレーション </p>
+
+</div>
+</div>
+<a id="af92a53a6a2885953fc31dfab99df5c4b" name="af92a53a6a2885953fc31dfab99df5c4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af92a53a6a2885953fc31dfab99df5c4b">&#9670;&nbsp;</a></span>torque_iter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::torque_iter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>外部トルクを有効にするイテレーション </p>
+
+</div>
+</div>
+<a id="ac832d02f5782a79fe526410ee7e704fd" name="ac832d02f5782a79fe526410ee7e704fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac832d02f5782a79fe526410ee7e704fd">&#9670;&nbsp;</a></span>trap_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::trap_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>閉じ込めトラップポテンシャルの種別 </p>
+
+</div>
+</div>
+<a id="a2ceadc532c06e90f652ce711749b8001" name="a2ceadc532c06e90f652ce711749b8001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ceadc532c06e90f652ce711749b8001">&#9670;&nbsp;</a></span>vgrid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::vgrid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点グリッドのポテンシャル高さ </p>
+
+</div>
+</div>
+<a id="a946095825a77229579e27769f31afcc3" name="a946095825a77229579e27769f31afcc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a946095825a77229579e27769f31afcc3">&#9670;&nbsp;</a></span>vortex_dyn_iter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::vortex_dyn_iter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間において量子渦を動的に挿入するときのイテレーション </p>
+
+</div>
+</div>
+<a id="a3e2496fbb19bde8c672f779d0f93d9e3" name="a3e2496fbb19bde8c672f779d0f93d9e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e2496fbb19bde8c672f779d0f93d9e3">&#9670;&nbsp;</a></span>vortex_dyn_kappa</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::vortex_dyn_kappa</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間において動的に挿入する量子渦の巻数 </p>
+
+</div>
+</div>
+<a id="a0c63b9853ba434e14f3a9dac8555af09" name="a0c63b9853ba434e14f3a9dac8555af09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c63b9853ba434e14f3a9dac8555af09">&#9670;&nbsp;</a></span>vortex_exists</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical constants::vortex_exists</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期時刻における量子渦の有無 </p>
+
+</div>
+</div>
+<a id="ade0ae8dbbeda19950ee9a16c1456f20e" name="ade0ae8dbbeda19950ee9a16c1456f20e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade0ae8dbbeda19950ee9a16c1456f20e">&#9670;&nbsp;</a></span>vortex_kappa</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer constants::vortex_kappa</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期時刻における量子渦の巻数 </p>
+
+</div>
+</div>
+<a id="a4c95902603f9cf208965baabfcf5d41f" name="a4c95902603f9cf208965baabfcf5d41f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c95902603f9cf208965baabfcf5d41f">&#9670;&nbsp;</a></span>vpin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::vpin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点のポテンシャルの高さ </p>
+
+</div>
+</div>
+<a id="aebfcc2e83e2f531bfdbf8d155e2ab188" name="aebfcc2e83e2f531bfdbf8d155e2ab188"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfcc2e83e2f531bfdbf8d155e2ab188">&#9670;&nbsp;</a></span>vsound</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::vsound</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間において動的に挿入する音波を生成する格子点ポテンシャルの高さ </p>
+
+</div>
+</div>
+<a id="a743d81d6f048dca324e06583be25ef4a" name="a743d81d6f048dca324e06583be25ef4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a743d81d6f048dca324e06583be25ef4a">&#9670;&nbsp;</a></span>vtrap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::vtrap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>閉じ込めトラップポテンシャルの高さ </p>
+
+</div>
+</div>
+<a id="adc339d35da0b90b509ec6d436dce015e" name="adc339d35da0b90b509ec6d436dce015e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc339d35da0b90b509ec6d436dce015e">&#9670;&nbsp;</a></span>x0_pin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::x0_pin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点の中心座標(x座標) </p>
+
+</div>
+</div>
+<a id="ad9ee8b45ba5e33f19096ab8435d2a12b" name="ad9ee8b45ba5e33f19096ab8435d2a12b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9ee8b45ba5e33f19096ab8435d2a12b">&#9670;&nbsp;</a></span>x0_sound_dyn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::x0_sound_dyn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間において動的に挿入する音波の中心座標(x座標) </p>
+
+</div>
+</div>
+<a id="a0d0dea786d64c78bd65eed01312a20f8" name="a0d0dea786d64c78bd65eed01312a20f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d0dea786d64c78bd65eed01312a20f8">&#9670;&nbsp;</a></span>x0_vortex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::x0_vortex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期時刻における量子渦の中心座標(x座標) </p>
+
+</div>
+</div>
+<a id="a099129dc1cda8b813425ecd36a73a618" name="a099129dc1cda8b813425ecd36a73a618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099129dc1cda8b813425ecd36a73a618">&#9670;&nbsp;</a></span>x0_vortex_dyn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::x0_vortex_dyn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間において動的に挿入する量子渦の中心座標(x座標) </p>
+
+</div>
+</div>
+<a id="a8d23c5680196bec8216f1db546ed95e4" name="a8d23c5680196bec8216f1db546ed95e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d23c5680196bec8216f1db546ed95e4">&#9670;&nbsp;</a></span>xmax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::xmax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>x軸の最大座標値 </p>
+
+</div>
+</div>
+<a id="aa48dfeb9d97b177f0110dcee861485b7" name="aa48dfeb9d97b177f0110dcee861485b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa48dfeb9d97b177f0110dcee861485b7">&#9670;&nbsp;</a></span>y0_pin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::y0_pin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点の中心座標(y座標) </p>
+
+</div>
+</div>
+<a id="a0f3ed9eced54d4d89cdba8cff45e3bd5" name="a0f3ed9eced54d4d89cdba8cff45e3bd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f3ed9eced54d4d89cdba8cff45e3bd5">&#9670;&nbsp;</a></span>y0_sound_dyn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::y0_sound_dyn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間において動的に挿入する音波の中心座標(y座標) </p>
+
+</div>
+</div>
+<a id="a8d5d78fe49fd90de60390a77ef86a8eb" name="a8d5d78fe49fd90de60390a77ef86a8eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d5d78fe49fd90de60390a77ef86a8eb">&#9670;&nbsp;</a></span>y0_vortex</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::y0_vortex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期時刻における量子渦の中心座標(y座標) </p>
+
+</div>
+</div>
+<a id="a2b7a7acdc1608ba16d091d71739f42c0" name="a2b7a7acdc1608ba16d091d71739f42c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b7a7acdc1608ba16d091d71739f42c0">&#9670;&nbsp;</a></span>y0_vortex_dyn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::y0_vortex_dyn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間において動的に挿入する量子渦の中心座標(y座標) </p>
+
+</div>
+</div>
+<a id="a530dd9887b82a73163bc6e01d54a0e55" name="a530dd9887b82a73163bc6e01d54a0e55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a530dd9887b82a73163bc6e01d54a0e55">&#9670;&nbsp;</a></span>ymax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::ymax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>y軸の最大座標値 </p>
+
+</div>
+</div>
+<a id="a5ad3e25679e52387c6b0be7c86a88533" name="a5ad3e25679e52387c6b0be7c86a88533"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad3e25679e52387c6b0be7c86a88533">&#9670;&nbsp;</a></span>z0_pin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::z0_pin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>格子点の中心座標(z座標) </p>
+
+</div>
+</div>
+<a id="aafcff9ce85fd8be77bcfdf942df07e39" name="aafcff9ce85fd8be77bcfdf942df07e39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafcff9ce85fd8be77bcfdf942df07e39">&#9670;&nbsp;</a></span>z0_sound_dyn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::z0_sound_dyn</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>実時間において動的に挿入する音波の中心座標(z座標) </p>
+
+</div>
+</div>
+<a id="a16356e2e2c2c1bec28dfaa668b6a000f" name="a16356e2e2c2c1bec28dfaa668b6a000f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16356e2e2c2c1bec28dfaa668b6a000f">&#9670;&nbsp;</a></span>zmax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision constants::zmax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>z軸の最大座標値 </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceconstants.html">constants</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

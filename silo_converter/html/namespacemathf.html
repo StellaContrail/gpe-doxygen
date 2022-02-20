@@ -1,0 +1,991 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Silo Converter: mathfモジュール</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-fancy-scrollbars.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Silo Converter
+   </div>
+   <div id="projectbrief">A small program that converts the GPE Solver output files into the Silo files.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'検索','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('namespacemathf.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">関数/サブルーチン</a> &#124;
+<a href="#var-members">変数</a>  </div>
+  <div class="headertitle"><div class="title">mathfモジュール</div></div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+関数/サブルーチン</h2></td></tr>
+<tr class="memitem:a073ce53cc963892823b5b7724ad6d1af"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a073ce53cc963892823b5b7724ad6d1af">initialize_mathf</a> (dims, step)</td></tr>
+<tr class="memdesc:a073ce53cc963892823b5b7724ad6d1af"><td class="mdescLeft">&#160;</td><td class="mdescRight">初期化するための関数  <a href="namespacemathf.html#a073ce53cc963892823b5b7724ad6d1af">[詳解]</a><br /></td></tr>
+<tr class="separator:a073ce53cc963892823b5b7724ad6d1af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f5daf5aca563ba84f9aa8a20af44e8"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#ab8f5daf5aca563ba84f9aa8a20af44e8">deallocate_mathf</a> ()</td></tr>
+<tr class="memdesc:ab8f5daf5aca563ba84f9aa8a20af44e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">プログラムで割り当てたメモリを開放する  <a href="namespacemathf.html#ab8f5daf5aca563ba84f9aa8a20af44e8">[詳解]</a><br /></td></tr>
+<tr class="separator:ab8f5daf5aca563ba84f9aa8a20af44e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6328ad9cb25c0233f32ca223afc72201"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a6328ad9cb25c0233f32ca223afc72201">check_validity</a> (xpos)</td></tr>
+<tr class="memdesc:a6328ad9cb25c0233f32ca223afc72201"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTW計算のValidityを検証する  <a href="namespacemathf.html#a6328ad9cb25c0233f32ca223afc72201">[詳解]</a><br /></td></tr>
+<tr class="separator:a6328ad9cb25c0233f32ca223afc72201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3db40e80b9074c6c4c8a29a3e049c3b5"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a3db40e80b9074c6c4c8a29a3e049c3b5">velocity_field</a> (Phi, V)</td></tr>
+<tr class="memdesc:a3db40e80b9074c6c4c8a29a3e049c3b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">運動量を計算して速度場を求める  <a href="namespacemathf.html#a3db40e80b9074c6c4c8a29a3e049c3b5">[詳解]</a><br /></td></tr>
+<tr class="separator:a3db40e80b9074c6c4c8a29a3e049c3b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5519470d4f732f05e6e7605eec91fd2"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#aa5519470d4f732f05e6e7605eec91fd2">probability_current</a> (Phi, J)</td></tr>
+<tr class="memdesc:aa5519470d4f732f05e6e7605eec91fd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">確率流密度(速度場)を計算する  <a href="namespacemathf.html#aa5519470d4f732f05e6e7605eec91fd2">[詳解]</a><br /></td></tr>
+<tr class="separator:aa5519470d4f732f05e6e7605eec91fd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a411a42d66443b2e8f12b49388deb6be5"><td class="memItemLeft" align="right" valign="top">complex(kind(0d0)) function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>, 3)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a411a42d66443b2e8f12b49388deb6be5">curl_fourier</a> (V)</td></tr>
+<tr class="memdesc:a411a42d66443b2e8f12b49388deb6be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">速度場から回転を計算する  <a href="namespacemathf.html#a411a42d66443b2e8f12b49388deb6be5">[詳解]</a><br /></td></tr>
+<tr class="separator:a411a42d66443b2e8f12b49388deb6be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0627e8581e881f84544022444c649567"><td class="memItemLeft" align="right" valign="top">double precision function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a0627e8581e881f84544022444c649567">df_dx_real</a> (F)</td></tr>
+<tr class="memdesc:a0627e8581e881f84544022444c649567"><td class="mdescLeft">&#160;</td><td class="mdescRight">FDMを用いて \( dF/dX \)を計算する  <a href="namespacemathf.html#a0627e8581e881f84544022444c649567">[詳解]</a><br /></td></tr>
+<tr class="separator:a0627e8581e881f84544022444c649567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa865145d1410b9b3f816007208941b1"><td class="memItemLeft" align="right" valign="top">double precision function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#afa865145d1410b9b3f816007208941b1">df_dy_real</a> (F)</td></tr>
+<tr class="memdesc:afa865145d1410b9b3f816007208941b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">FDMを用いて \( dF/dY \)を計算する  <a href="namespacemathf.html#afa865145d1410b9b3f816007208941b1">[詳解]</a><br /></td></tr>
+<tr class="separator:afa865145d1410b9b3f816007208941b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb80cef346b50f7092e927142af6289d"><td class="memItemLeft" align="right" valign="top">double precision function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#aeb80cef346b50f7092e927142af6289d">df_dz_real</a> (F)</td></tr>
+<tr class="memdesc:aeb80cef346b50f7092e927142af6289d"><td class="mdescLeft">&#160;</td><td class="mdescRight">FDMを用いて \( dF/dZ \)を計算する  <a href="namespacemathf.html#aeb80cef346b50f7092e927142af6289d">[詳解]</a><br /></td></tr>
+<tr class="separator:aeb80cef346b50f7092e927142af6289d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6e971d06c3f80c88d2041516e31189"><td class="memItemLeft" align="right" valign="top">double precision function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>, 3)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a6d6e971d06c3f80c88d2041516e31189">curl_fdm</a> (F)</td></tr>
+<tr class="memdesc:a6d6e971d06c3f80c88d2041516e31189"><td class="mdescLeft">&#160;</td><td class="mdescRight">FDMを用いて回転を計算する  <a href="namespacemathf.html#a6d6e971d06c3f80c88d2041516e31189">[詳解]</a><br /></td></tr>
+<tr class="separator:a6d6e971d06c3f80c88d2041516e31189"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28336dca1bafd7da505ea2bfd703f719"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a28336dca1bafd7da505ea2bfd703f719">kinetic_energy</a> (Phi, T)</td></tr>
+<tr class="memdesc:a28336dca1bafd7da505ea2bfd703f719"><td class="mdescLeft">&#160;</td><td class="mdescRight">運動エネルギーの分布を計算する  <a href="namespacemathf.html#a28336dca1bafd7da505ea2bfd703f719">[詳解]</a><br /></td></tr>
+<tr class="separator:a28336dca1bafd7da505ea2bfd703f719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2a20e44a709c699c7d70343807c8104"><td class="memItemLeft" align="right" valign="top">complex(kind(0d0)) function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>, 1:3)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#ab2a20e44a709c699c7d70343807c8104">gradient_fftw</a> (F)</td></tr>
+<tr class="memdesc:ab2a20e44a709c699c7d70343807c8104"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWを用いた勾配の計算  <a href="namespacemathf.html#ab2a20e44a709c699c7d70343807c8104">[詳解]</a><br /></td></tr>
+<tr class="separator:ab2a20e44a709c699c7d70343807c8104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d21fc15e133e7de7dd94fb0ec2d8041"><td class="memItemLeft" align="right" valign="top">complex(kind(0d0)) function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a8d21fc15e133e7de7dd94fb0ec2d8041">laplacian_fftw</a> (F)</td></tr>
+<tr class="memdesc:a8d21fc15e133e7de7dd94fb0ec2d8041"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWを用いたラプラシアンの計算  <a href="namespacemathf.html#a8d21fc15e133e7de7dd94fb0ec2d8041">[詳解]</a><br /></td></tr>
+<tr class="separator:a8d21fc15e133e7de7dd94fb0ec2d8041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa56cd512426465452faac695c182224e"><td class="memItemLeft" align="right" valign="top">complex(kind(0d0)) function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#aa56cd512426465452faac695c182224e">transform_fftw</a> (in)</td></tr>
+<tr class="memdesc:aa56cd512426465452faac695c182224e"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWによる高速フーリエ変換  <a href="namespacemathf.html#aa56cd512426465452faac695c182224e">[詳解]</a><br /></td></tr>
+<tr class="separator:aa56cd512426465452faac695c182224e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61651c1d4d9fbe471ca3245524378b91"><td class="memItemLeft" align="right" valign="top">complex(kind(0d0)) function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a61651c1d4d9fbe471ca3245524378b91">revert_fftw</a> (in)</td></tr>
+<tr class="memdesc:a61651c1d4d9fbe471ca3245524378b91"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWによる高速フーリエ逆変換  <a href="namespacemathf.html#a61651c1d4d9fbe471ca3245524378b91">[詳解]</a><br /></td></tr>
+<tr class="separator:a61651c1d4d9fbe471ca3245524378b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ddce1c15c13917b1b5fabed41017d2"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#af3ddce1c15c13917b1b5fabed41017d2">new_fftw</a> ()</td></tr>
+<tr class="memdesc:af3ddce1c15c13917b1b5fabed41017d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWの初期化  <a href="namespacemathf.html#af3ddce1c15c13917b1b5fabed41017d2">[詳解]</a><br /></td></tr>
+<tr class="separator:af3ddce1c15c13917b1b5fabed41017d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7614e93c113ae37a1ba6f4036ff727c6"><td class="memItemLeft" align="right" valign="top">double precision function, dimension(1:n)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a7614e93c113ae37a1ba6f4036ff727c6">create_wavenumber</a> (N)</td></tr>
+<tr class="memdesc:a7614e93c113ae37a1ba6f4036ff727c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWで用いる波数ベクトルを初期化する  <a href="namespacemathf.html#a7614e93c113ae37a1ba6f4036ff727c6">[詳解]</a><br /></td></tr>
+<tr class="separator:a7614e93c113ae37a1ba6f4036ff727c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ef84a35b455a025358427217bf3fffe"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a7ef84a35b455a025358427217bf3fffe">destroy_fftw</a> ()</td></tr>
+<tr class="memdesc:a7ef84a35b455a025358427217bf3fffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWで確保したメモリを開放する  <a href="namespacemathf.html#a7ef84a35b455a025358427217bf3fffe">[詳解]</a><br /></td></tr>
+<tr class="separator:a7ef84a35b455a025358427217bf3fffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+変数</h2></td></tr>
+<tr class="memitem:a60c8f9b5cf7cdb6634062fb0b6c5b663"><td class="memItemLeft" align="right" valign="top">type(c_ptr)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a60c8f9b5cf7cdb6634062fb0b6c5b663">pfx</a></td></tr>
+<tr class="memdesc:a60c8f9b5cf7cdb6634062fb0b6c5b663"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWで用いる \( f(x) \)に対するポインタ  <a href="namespacemathf.html#a60c8f9b5cf7cdb6634062fb0b6c5b663">[詳解]</a><br /></td></tr>
+<tr class="separator:a60c8f9b5cf7cdb6634062fb0b6c5b663"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d4aee76089c925951dbc2b0b5252be8"><td class="memItemLeft" align="right" valign="top">type(c_ptr)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a0d4aee76089c925951dbc2b0b5252be8">pfk</a></td></tr>
+<tr class="memdesc:a0d4aee76089c925951dbc2b0b5252be8"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWで用いる \( F(k) \)に対するポインタ  <a href="namespacemathf.html#a0d4aee76089c925951dbc2b0b5252be8">[詳解]</a><br /></td></tr>
+<tr class="separator:a0d4aee76089c925951dbc2b0b5252be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30b5455c43967236207ff9a06a92983"><td class="memItemLeft" align="right" valign="top">type(c_ptr)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#ad30b5455c43967236207ff9a06a92983">pgx</a></td></tr>
+<tr class="memdesc:ad30b5455c43967236207ff9a06a92983"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWで用いる \( g(x) \)に対するポインタ  <a href="namespacemathf.html#ad30b5455c43967236207ff9a06a92983">[詳解]</a><br /></td></tr>
+<tr class="separator:ad30b5455c43967236207ff9a06a92983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade99f926e7a126efb7f7fee3eaea027d"><td class="memItemLeft" align="right" valign="top">type(c_ptr)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#ade99f926e7a126efb7f7fee3eaea027d">pgk</a></td></tr>
+<tr class="memdesc:ade99f926e7a126efb7f7fee3eaea027d"><td class="mdescLeft">&#160;</td><td class="mdescRight">FFTWで用いる \( G(k) \)に対するポインタ  <a href="namespacemathf.html#ade99f926e7a126efb7f7fee3eaea027d">[詳解]</a><br /></td></tr>
+<tr class="separator:ade99f926e7a126efb7f7fee3eaea027d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fefecac2fe1d0212c4e3d9ba05a70bf"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a4fefecac2fe1d0212c4e3d9ba05a70bf">nx</a></td></tr>
+<tr class="memdesc:a4fefecac2fe1d0212c4e3d9ba05a70bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">x軸方向の次元  <a href="namespacemathf.html#a4fefecac2fe1d0212c4e3d9ba05a70bf">[詳解]</a><br /></td></tr>
+<tr class="separator:a4fefecac2fe1d0212c4e3d9ba05a70bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2187acb438dda68a9d5e6bb0ede33e7"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#ab2187acb438dda68a9d5e6bb0ede33e7">ny</a></td></tr>
+<tr class="memdesc:ab2187acb438dda68a9d5e6bb0ede33e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">y軸方向の次元  <a href="namespacemathf.html#ab2187acb438dda68a9d5e6bb0ede33e7">[詳解]</a><br /></td></tr>
+<tr class="separator:ab2187acb438dda68a9d5e6bb0ede33e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92c414bd944f8fd51a5188b982576bd9"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a92c414bd944f8fd51a5188b982576bd9">nz</a></td></tr>
+<tr class="memdesc:a92c414bd944f8fd51a5188b982576bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">z軸方向の次元  <a href="namespacemathf.html#a92c414bd944f8fd51a5188b982576bd9">[詳解]</a><br /></td></tr>
+<tr class="separator:a92c414bd944f8fd51a5188b982576bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2748f90622222f4539f4ee74c8756345"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a></td></tr>
+<tr class="memdesc:a2748f90622222f4539f4ee74c8756345"><td class="mdescLeft">&#160;</td><td class="mdescRight">\( NL^2=N_x^2+N_y^2+N_z^2 \)  <a href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">[詳解]</a><br /></td></tr>
+<tr class="separator:a2748f90622222f4539f4ee74c8756345"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cae420fc81a40fc07b9e94dba6a9732"><td class="memItemLeft" align="right" valign="top">double precision, parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a6cae420fc81a40fc07b9e94dba6a9732">pi</a> = acos(-1d0)</td></tr>
+<tr class="memdesc:a6cae420fc81a40fc07b9e94dba6a9732"><td class="mdescLeft">&#160;</td><td class="mdescRight">円周率  <a href="namespacemathf.html#a6cae420fc81a40fc07b9e94dba6a9732">[詳解]</a><br /></td></tr>
+<tr class="separator:a6cae420fc81a40fc07b9e94dba6a9732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee021d48d2fd1208f4ac46de5ead329f"><td class="memItemLeft" align="right" valign="top">complex(kind(0d0)), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#aee021d48d2fd1208f4ac46de5ead329f">iu</a> = (0d0, 1d0)</td></tr>
+<tr class="memdesc:aee021d48d2fd1208f4ac46de5ead329f"><td class="mdescLeft">&#160;</td><td class="mdescRight">虚数単位  <a href="namespacemathf.html#aee021d48d2fd1208f4ac46de5ead329f">[詳解]</a><br /></td></tr>
+<tr class="separator:aee021d48d2fd1208f4ac46de5ead329f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc21ddea93956e39d2812d479a529f79"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#acc21ddea93956e39d2812d479a529f79">dh</a></td></tr>
+<tr class="memdesc:acc21ddea93956e39d2812d479a529f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">空間の刻み幅  <a href="namespacemathf.html#acc21ddea93956e39d2812d479a529f79">[詳解]</a><br /></td></tr>
+<tr class="separator:acc21ddea93956e39d2812d479a529f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ad95419a6b5ddea437f6227c093ded1"><td class="memItemLeft" align="right" valign="top">double precision&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a5ad95419a6b5ddea437f6227c093ded1">dv</a> = 0d0</td></tr>
+<tr class="memdesc:a5ad95419a6b5ddea437f6227c093ded1"><td class="mdescLeft">&#160;</td><td class="mdescRight">空間の微小体積を格納する変数  <a href="namespacemathf.html#a5ad95419a6b5ddea437f6227c093ded1">[詳解]</a><br /></td></tr>
+<tr class="separator:a5ad95419a6b5ddea437f6227c093ded1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6c78b1269914ff93724355c3e538960"><td class="memItemLeft" align="right" valign="top">integer, dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#ad6c78b1269914ff93724355c3e538960">i2ix</a></td></tr>
+<tr class="memdesc:ad6c78b1269914ff93724355c3e538960"><td class="mdescLeft">&#160;</td><td class="mdescRight">全体のインデックス \( i \)からx軸のインデックス \( ix \)に射影する配列  <a href="namespacemathf.html#ad6c78b1269914ff93724355c3e538960">[詳解]</a><br /></td></tr>
+<tr class="separator:ad6c78b1269914ff93724355c3e538960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4321123389f3bd5b87d50230919adf04"><td class="memItemLeft" align="right" valign="top">integer, dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a4321123389f3bd5b87d50230919adf04">i2iy</a></td></tr>
+<tr class="memdesc:a4321123389f3bd5b87d50230919adf04"><td class="mdescLeft">&#160;</td><td class="mdescRight">全体のインデックス \( i \)からy軸のインデックス \( iy \)に射影する配列  <a href="namespacemathf.html#a4321123389f3bd5b87d50230919adf04">[詳解]</a><br /></td></tr>
+<tr class="separator:a4321123389f3bd5b87d50230919adf04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc2f2c19f27a494456c3f5be86043f2f"><td class="memItemLeft" align="right" valign="top">integer, dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#adc2f2c19f27a494456c3f5be86043f2f">i2iz</a></td></tr>
+<tr class="memdesc:adc2f2c19f27a494456c3f5be86043f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">全体のインデックス \( i \)からz軸のインデックス \( iz \)に射影する配列  <a href="namespacemathf.html#adc2f2c19f27a494456c3f5be86043f2f">[詳解]</a><br /></td></tr>
+<tr class="separator:adc2f2c19f27a494456c3f5be86043f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35918ead88b8209b690974f5367ffe41"><td class="memItemLeft" align="right" valign="top">integer, dimension(:, :, :), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#a35918ead88b8209b690974f5367ffe41">ixyz2i</a></td></tr>
+<tr class="memdesc:a35918ead88b8209b690974f5367ffe41"><td class="mdescLeft">&#160;</td><td class="mdescRight">それぞれの軸のインデックス \( (ix,iy,iz) \)から全体のインデックス \( i \)に射影する配列  <a href="namespacemathf.html#a35918ead88b8209b690974f5367ffe41">[詳解]</a><br /></td></tr>
+<tr class="separator:a35918ead88b8209b690974f5367ffe41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad408f1606615dcaef79c28e087bd2cda"><td class="memItemLeft" align="right" valign="top">double precision, dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemathf.html#ad408f1606615dcaef79c28e087bd2cda">c1</a></td></tr>
+<tr class="memdesc:ad408f1606615dcaef79c28e087bd2cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">FDM(有限差分法)の係数を格納する変数  <a href="namespacemathf.html#ad408f1606615dcaef79c28e087bd2cda">[詳解]</a><br /></td></tr>
+<tr class="separator:ad408f1606615dcaef79c28e087bd2cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">関数/サブルーチン詳解</h2>
+<a id="a6328ad9cb25c0233f32ca223afc72201" name="a6328ad9cb25c0233f32ca223afc72201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6328ad9cb25c0233f32ca223afc72201">&#9670;&nbsp;</a></span>check_validity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine mathf::check_validity </td>
+          <td>(</td>
+          <td class="paramtype">double precision, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>)&#160;</td>
+          <td class="paramname"><em>xpos</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTW計算のValidityを検証する </p>
+<p >デバッグ用 </p><dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">xpos</td><td>x軸の座標データ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7614e93c113ae37a1ba6f4036ff727c6" name="a7614e93c113ae37a1ba6f4036ff727c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7614e93c113ae37a1ba6f4036ff727c6">&#9670;&nbsp;</a></span>create_wavenumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision function, dimension(1:n) mathf::create_wavenumber </td>
+          <td>(</td>
+          <td class="paramtype">integer, intent(in)&#160;</td>
+          <td class="paramname"><em>N</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWで用いる波数ベクトルを初期化する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">N</td><td>波数ベクトルの次元 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>K_ 波数ベクトル </dd></dl>
+
+</div>
+</div>
+<a id="a6d6e971d06c3f80c88d2041516e31189" name="a6d6e971d06c3f80c88d2041516e31189"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d6e971d06c3f80c88d2041516e31189">&#9670;&nbsp;</a></span>curl_fdm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>,3) mathf::curl_fdm </td>
+          <td>(</td>
+          <td class="paramtype">double precision, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>,3), intent(in)&#160;</td>
+          <td class="paramname"><em>F</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FDMを用いて回転を計算する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">F</td><td>実数配列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>R 計算結果 </dd></dl>
+
+</div>
+</div>
+<a id="a411a42d66443b2e8f12b49388deb6be5" name="a411a42d66443b2e8f12b49388deb6be5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a411a42d66443b2e8f12b49388deb6be5">&#9670;&nbsp;</a></span>curl_fourier()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">complex(kind(0d0)) function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>,3) mathf::curl_fourier </td>
+          <td>(</td>
+          <td class="paramtype">double precision, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>,3), intent(in)&#160;</td>
+          <td class="paramname"><em>V</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>速度場から回転を計算する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">V</td><td>速度場 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>R 回転 </dd></dl>
+
+</div>
+</div>
+<a id="ab8f5daf5aca563ba84f9aa8a20af44e8" name="ab8f5daf5aca563ba84f9aa8a20af44e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f5daf5aca563ba84f9aa8a20af44e8">&#9670;&nbsp;</a></span>deallocate_mathf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine mathf::deallocate_mathf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>プログラムで割り当てたメモリを開放する </p>
+
+</div>
+</div>
+<a id="a7ef84a35b455a025358427217bf3fffe" name="a7ef84a35b455a025358427217bf3fffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ef84a35b455a025358427217bf3fffe">&#9670;&nbsp;</a></span>destroy_fftw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine mathf::destroy_fftw</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWで確保したメモリを開放する </p>
+
+</div>
+</div>
+<a id="a0627e8581e881f84544022444c649567" name="a0627e8581e881f84544022444c649567"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0627e8581e881f84544022444c649567">&#9670;&nbsp;</a></span>df_dx_real()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>) mathf::df_dx_real </td>
+          <td>(</td>
+          <td class="paramtype">double precision, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>F</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FDMを用いて \( dF/dX \)を計算する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">F</td><td>実数配列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>G 計算結果 </dd></dl>
+
+</div>
+</div>
+<a id="afa865145d1410b9b3f816007208941b1" name="afa865145d1410b9b3f816007208941b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa865145d1410b9b3f816007208941b1">&#9670;&nbsp;</a></span>df_dy_real()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>) mathf::df_dy_real </td>
+          <td>(</td>
+          <td class="paramtype">double precision, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>F</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FDMを用いて \( dF/dY \)を計算する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">F</td><td>実数配列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>G 計算結果 </dd></dl>
+
+</div>
+</div>
+<a id="aeb80cef346b50f7092e927142af6289d" name="aeb80cef346b50f7092e927142af6289d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb80cef346b50f7092e927142af6289d">&#9670;&nbsp;</a></span>df_dz_real()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>) mathf::df_dz_real </td>
+          <td>(</td>
+          <td class="paramtype">double precision, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>F</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FDMを用いて \( dF/dZ \)を計算する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">F</td><td>実数配列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>G 計算結果 </dd></dl>
+
+</div>
+</div>
+<a id="ab2a20e44a709c699c7d70343807c8104" name="ab2a20e44a709c699c7d70343807c8104"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2a20e44a709c699c7d70343807c8104">&#9670;&nbsp;</a></span>gradient_fftw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">complex(kind(0d0)) function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>,1:3) mathf::gradient_fftw </td>
+          <td>(</td>
+          <td class="paramtype">complex(kind(0d0)), dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>F</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWを用いた勾配の計算 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">F</td><td>複素数配列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>計算結果 </dd></dl>
+
+</div>
+</div>
+<a id="a073ce53cc963892823b5b7724ad6d1af" name="a073ce53cc963892823b5b7724ad6d1af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a073ce53cc963892823b5b7724ad6d1af">&#9670;&nbsp;</a></span>initialize_mathf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine mathf::initialize_mathf </td>
+          <td>(</td>
+          <td class="paramtype">integer, dimension(3), intent(in)&#160;</td>
+          <td class="paramname"><em>dims</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double precision&#160;</td>
+          <td class="paramname"><em>step</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>初期化するための関数 </p>
+<p >FFTWやFDM、座標インデックスなどの初期化を行う </p><dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dims</td><td>空間次元 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">step</td><td>空間の刻み幅 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a28336dca1bafd7da505ea2bfd703f719" name="a28336dca1bafd7da505ea2bfd703f719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28336dca1bafd7da505ea2bfd703f719">&#9670;&nbsp;</a></span>kinetic_energy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine mathf::kinetic_energy </td>
+          <td>(</td>
+          <td class="paramtype">complex(kind(0d0)), dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>Phi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(kind(0d0)), dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>)&#160;</td>
+          <td class="paramname"><em>T</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>運動エネルギーの分布を計算する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Phi</td><td>波動関数 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">T</td><td>運動エネルギー </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8d21fc15e133e7de7dd94fb0ec2d8041" name="a8d21fc15e133e7de7dd94fb0ec2d8041"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d21fc15e133e7de7dd94fb0ec2d8041">&#9670;&nbsp;</a></span>laplacian_fftw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">complex(kind(0d0)) function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>) mathf::laplacian_fftw </td>
+          <td>(</td>
+          <td class="paramtype">complex(kind(0d0)), dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>F</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWを用いたラプラシアンの計算 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">F</td><td>複素数配列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>計算結果 </dd></dl>
+
+</div>
+</div>
+<a id="af3ddce1c15c13917b1b5fabed41017d2" name="af3ddce1c15c13917b1b5fabed41017d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3ddce1c15c13917b1b5fabed41017d2">&#9670;&nbsp;</a></span>new_fftw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine mathf::new_fftw</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWの初期化 </p>
+<p >FFTWを用いる操作（微分計算）を行う前に一度は実行しなければならない </p>
+
+</div>
+</div>
+<a id="aa5519470d4f732f05e6e7605eec91fd2" name="aa5519470d4f732f05e6e7605eec91fd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5519470d4f732f05e6e7605eec91fd2">&#9670;&nbsp;</a></span>probability_current()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine mathf::probability_current </td>
+          <td>(</td>
+          <td class="paramtype">complex(kind(0d0)), dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>Phi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double precision, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>,3)&#160;</td>
+          <td class="paramname"><em>J</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>確率流密度(速度場)を計算する </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Phi</td><td>波動関数 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">J</td><td>確率流密度 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a61651c1d4d9fbe471ca3245524378b91" name="a61651c1d4d9fbe471ca3245524378b91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61651c1d4d9fbe471ca3245524378b91">&#9670;&nbsp;</a></span>revert_fftw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">complex(kind(0d0)) function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>) mathf::revert_fftw </td>
+          <td>(</td>
+          <td class="paramtype">complex(kind(0d0)), dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWによる高速フーリエ逆変換 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>対象となる配列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>変換結果 </dd></dl>
+
+</div>
+</div>
+<a id="aa56cd512426465452faac695c182224e" name="aa56cd512426465452faac695c182224e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa56cd512426465452faac695c182224e">&#9670;&nbsp;</a></span>transform_fftw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">complex(kind(0d0)) function, dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>) mathf::transform_fftw </td>
+          <td>(</td>
+          <td class="paramtype">complex(kind(0d0)), dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>in</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWによる高速フーリエ変換 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">in</td><td>対象となる配列 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>戻り値</dt><dd>変換結果 </dd></dl>
+
+</div>
+</div>
+<a id="a3db40e80b9074c6c4c8a29a3e049c3b5" name="a3db40e80b9074c6c4c8a29a3e049c3b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3db40e80b9074c6c4c8a29a3e049c3b5">&#9670;&nbsp;</a></span>velocity_field()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine mathf::velocity_field </td>
+          <td>(</td>
+          <td class="paramtype">complex(kind(0d0)), dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>Phi</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">complex(kind(0d0)), dimension(1:<a class="el" href="namespacemathf.html#a2748f90622222f4539f4ee74c8756345">nl</a>,3)&#160;</td>
+          <td class="paramname"><em>V</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>運動量を計算して速度場を求める </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">Phi</td><td>波動関数 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">V</td><td>速度場 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">変数詳解</h2>
+<a id="ad408f1606615dcaef79c28e087bd2cda" name="ad408f1606615dcaef79c28e087bd2cda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad408f1606615dcaef79c28e087bd2cda">&#9670;&nbsp;</a></span>c1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision, dimension(:), allocatable mathf::c1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FDM(有限差分法)の係数を格納する変数 </p>
+
+</div>
+</div>
+<a id="acc21ddea93956e39d2812d479a529f79" name="acc21ddea93956e39d2812d479a529f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc21ddea93956e39d2812d479a529f79">&#9670;&nbsp;</a></span>dh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision mathf::dh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>空間の刻み幅 </p>
+
+</div>
+</div>
+<a id="a5ad95419a6b5ddea437f6227c093ded1" name="a5ad95419a6b5ddea437f6227c093ded1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ad95419a6b5ddea437f6227c093ded1">&#9670;&nbsp;</a></span>dv</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision mathf::dv = 0d0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>空間の微小体積を格納する変数 </p>
+<p >1次元のときはdV=dh, 2次元のときはdV=dh^2, 3次元のときはdV=dh^3となる </p>
+
+</div>
+</div>
+<a id="ad6c78b1269914ff93724355c3e538960" name="ad6c78b1269914ff93724355c3e538960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6c78b1269914ff93724355c3e538960">&#9670;&nbsp;</a></span>i2ix</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer, dimension(:), allocatable mathf::i2ix</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>全体のインデックス \( i \)からx軸のインデックス \( ix \)に射影する配列 </p>
+
+</div>
+</div>
+<a id="a4321123389f3bd5b87d50230919adf04" name="a4321123389f3bd5b87d50230919adf04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4321123389f3bd5b87d50230919adf04">&#9670;&nbsp;</a></span>i2iy</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer, dimension(:), allocatable mathf::i2iy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>全体のインデックス \( i \)からy軸のインデックス \( iy \)に射影する配列 </p>
+
+</div>
+</div>
+<a id="adc2f2c19f27a494456c3f5be86043f2f" name="adc2f2c19f27a494456c3f5be86043f2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc2f2c19f27a494456c3f5be86043f2f">&#9670;&nbsp;</a></span>i2iz</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer, dimension(:), allocatable mathf::i2iz</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>全体のインデックス \( i \)からz軸のインデックス \( iz \)に射影する配列 </p>
+
+</div>
+</div>
+<a id="aee021d48d2fd1208f4ac46de5ead329f" name="aee021d48d2fd1208f4ac46de5ead329f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee021d48d2fd1208f4ac46de5ead329f">&#9670;&nbsp;</a></span>iu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">complex(kind(0d0)), parameter mathf::iu = (0d0, 1d0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>虚数単位 </p>
+
+</div>
+</div>
+<a id="a35918ead88b8209b690974f5367ffe41" name="a35918ead88b8209b690974f5367ffe41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35918ead88b8209b690974f5367ffe41">&#9670;&nbsp;</a></span>ixyz2i</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer, dimension(:, :, :), allocatable mathf::ixyz2i</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>それぞれの軸のインデックス \( (ix,iy,iz) \)から全体のインデックス \( i \)に射影する配列 </p>
+
+</div>
+</div>
+<a id="a2748f90622222f4539f4ee74c8756345" name="a2748f90622222f4539f4ee74c8756345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2748f90622222f4539f4ee74c8756345">&#9670;&nbsp;</a></span>nl</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer mathf::nl</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>\( NL^2=N_x^2+N_y^2+N_z^2 \) </p>
+
+</div>
+</div>
+<a id="a4fefecac2fe1d0212c4e3d9ba05a70bf" name="a4fefecac2fe1d0212c4e3d9ba05a70bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fefecac2fe1d0212c4e3d9ba05a70bf">&#9670;&nbsp;</a></span>nx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer mathf::nx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>x軸方向の次元 </p>
+
+</div>
+</div>
+<a id="ab2187acb438dda68a9d5e6bb0ede33e7" name="ab2187acb438dda68a9d5e6bb0ede33e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2187acb438dda68a9d5e6bb0ede33e7">&#9670;&nbsp;</a></span>ny</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer mathf::ny</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>y軸方向の次元 </p>
+
+</div>
+</div>
+<a id="a92c414bd944f8fd51a5188b982576bd9" name="a92c414bd944f8fd51a5188b982576bd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92c414bd944f8fd51a5188b982576bd9">&#9670;&nbsp;</a></span>nz</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer mathf::nz</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>z軸方向の次元 </p>
+
+</div>
+</div>
+<a id="a0d4aee76089c925951dbc2b0b5252be8" name="a0d4aee76089c925951dbc2b0b5252be8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d4aee76089c925951dbc2b0b5252be8">&#9670;&nbsp;</a></span>pfk</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">type(c_ptr) mathf::pfk</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWで用いる \( F(k) \)に対するポインタ </p>
+
+</div>
+</div>
+<a id="a60c8f9b5cf7cdb6634062fb0b6c5b663" name="a60c8f9b5cf7cdb6634062fb0b6c5b663"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60c8f9b5cf7cdb6634062fb0b6c5b663">&#9670;&nbsp;</a></span>pfx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">type(c_ptr) mathf::pfx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWで用いる \( f(x) \)に対するポインタ </p>
+
+</div>
+</div>
+<a id="ade99f926e7a126efb7f7fee3eaea027d" name="ade99f926e7a126efb7f7fee3eaea027d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade99f926e7a126efb7f7fee3eaea027d">&#9670;&nbsp;</a></span>pgk</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">type(c_ptr) mathf::pgk</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWで用いる \( G(k) \)に対するポインタ </p>
+
+</div>
+</div>
+<a id="ad30b5455c43967236207ff9a06a92983" name="ad30b5455c43967236207ff9a06a92983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad30b5455c43967236207ff9a06a92983">&#9670;&nbsp;</a></span>pgx</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">type(c_ptr) mathf::pgx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FFTWで用いる \( g(x) \)に対するポインタ </p>
+
+</div>
+</div>
+<a id="a6cae420fc81a40fc07b9e94dba6a9732" name="a6cae420fc81a40fc07b9e94dba6a9732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cae420fc81a40fc07b9e94dba6a9732">&#9670;&nbsp;</a></span>pi</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precision, parameter mathf::pi = acos(-1d0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>円周率 </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespacemathf.html">mathf</a></li>
+    <li class="footer">構築: <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>
